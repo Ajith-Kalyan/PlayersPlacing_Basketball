@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/basketballcourt1"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/one" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+       android:layout_marginLeft="320dp"
+        android:src="@drawable/two" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/three" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="320dp"
+        android:src="@drawable/four" />
+
+    <ImageView
+        android:id="@+id/imagebasket"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/basketball" />
+
+</RelativeLayout>
